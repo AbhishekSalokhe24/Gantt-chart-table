@@ -1,0 +1,78 @@
+/* custom task group classes */
+		/* .gantt .bar-design .bar {
+			fill: darkorchid;
+		}
+		.gantt .bar-design .bar-progress {
+			fill: darkmagenta;
+		}
+		.gantt .bar-development .bar {
+			fill: limegreen;
+		}
+		.gantt .bar-development .bar-progress {
+			fill: lime;
+		}
+		.gantt .bar-integration .bar {
+			fill: crimson;
+		}
+		.gantt .bar-integration .bar-progress {
+			fill: tomato;
+		} */
+
+		/* custom class */
+		.gantt .bar-milestone .bar {
+			fill: orangered;
+		}
+
+
+        .gant-input{
+            border: none;
+            outline: none;
+            background-color: transparent;
+        }
+
+        .button {
+            --main-color: #323232;
+            position: relative;
+            width: 2rem;
+            height: 2rem;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            border-radius: 10px;
+            overflow: hidden;
+            border: none;
+            background-color: transparent;
+          }
+
+          .add-button{
+            background-color: #8a8aff
+          }
+
+          .button:hover{
+            background-color: #8a8aff
+          }
+
+         
+          
+        
+         
+          
+          .button .button__icon {
+            position: relative;
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+          }
+          
+          .button .svg {
+            width: 4rem;
+            fill: var(--main-color);
+          }
+          
+         
+          
+          
+         
+          
+         
