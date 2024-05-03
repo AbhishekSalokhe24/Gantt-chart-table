@@ -1,0 +1,37 @@
+.button {
+    --main-color: #323232;
+    position: relative;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    border: none;
+    background-color: transparent;
+  }
+
+  .add-button{
+    background-color: #8a8aff
+  }
+
+  .gant-input{
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+#durationInput{
+    width: 50px;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number]{
+    -moz-appearance: textfield;
+}
+.durationInput{
+  width: 25px;
+}
